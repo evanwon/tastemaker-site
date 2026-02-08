@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} - Tastemaker</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #FDF8F4;
+      color: #171717;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      border-bottom: 1px solid #F0EBE5;
+      padding: 16px 24px;
+    }
+
+    header a {
+      color: #C96F28;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    header a:hover {
+      color: #3A7CA5;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #171717;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: #171717;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      color: #171717;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #171717;
+    }
+
+    .last-updated {
+      color: #8A8078;
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+
+    ul, ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: #3A7CA5;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+      font-size: 14px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid #F0EBE5;
+    }
+
+    th {
+      font-weight: 600;
+      color: #8A8078;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    footer {
+      border-top: 1px solid #F0EBE5;
+      padding: 24px;
+      text-align: center;
+      color: #8A8078;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/">Tastemaker</a>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer>
+    &copy; {{ "" | currentYear }} Tastemaker
+  </footer>
+</body>
+</html>
