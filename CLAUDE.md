@@ -58,7 +58,7 @@ If brand colors change in the main app, update these values in `layout.njk` to m
 
 ## Deployment
 
-Cloudflare Pages auto-deploys on push to `master`. Build settings:
+Cloudflare Pages auto-deploys on push to `main`. Build settings:
 - Build command: `npm run build`
 - Output directory: `_site`
 - Custom domain: `trytastemaker.com`
