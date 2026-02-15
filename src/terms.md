@@ -6,7 +6,7 @@ permalink: /terms/
 
 # Terms of Service
 
-<p class="last-updated">Last Updated: January 30, 2026</p>
+<p class="last-updated">Last Updated: February 15, 2026</p>
 
 ## Introduction
 
@@ -22,6 +22,10 @@ Tastemaker is a mobile application that helps you track preferences and compare 
 - Add options within each comparison
 - Rate and add notes to options over time
 - View your rating history and rankings
+- Share comparisons with other users for collaborative rating
+- Invite others to shared comparisons via invite codes or QR codes
+- Export your data
+- Receive push notifications about activity in shared comparisons
 
 ## User Accounts
 
@@ -37,6 +41,24 @@ To use Tastemaker, you must sign in with a Google account. By signing in, you ag
 
 You are responsible for all activity that occurs under your account. We are not liable for any loss or damage arising from unauthorized use of your account.
 
+## Shared Comparisons
+
+### Inviting Others
+
+You may invite other users to collaborate on a comparison by generating an invite code. Invite codes expire after 7 days. You are responsible for sharing invite codes only with people you intend to collaborate with.
+
+### Member Limits
+
+Shared comparisons support a maximum of 6 members, including the owner.
+
+### Shared Data Visibility
+
+When you participate in a shared comparison, other members can see your display name, avatar color, profile photo, and the options and ratings you contribute. If hidden ratings mode is enabled on a comparison, other members' ratings are not visible to you until you have rated the same option.
+
+### Leaving or Revoking Access
+
+The comparison owner may revoke invite codes at any time. If you delete your account, your membership and ratings in shared comparisons created by others will be removed.
+
 ## User Responsibilities
 
 When using Tastemaker, you agree to:
@@ -46,7 +68,12 @@ When using Tastemaker, you agree to:
 - Not exploit bugs, vulnerabilities, or unintended functionality
 - Not interfere with or disrupt the App's operation
 - Not use automated systems or bots to access the App
-- Not attempt to access other users' data
+- Not attempt to access other users' data outside of shared comparisons
+- Not abuse invite codes or sharing features to harass or spam other users
+
+## Usage Limits
+
+To maintain service quality, the App enforces usage limits including a maximum number of comparisons, options per comparison, and ratings per option. These limits may change over time. If you reach a limit, you will be notified within the App.
 
 ## User Content
 
@@ -56,7 +83,7 @@ All data you create in Tastemaker (comparisons, options, ratings, and notes) rem
 
 ### License to Provide Service
 
-By using the App, you grant us a limited license to store, process, and display your data solely for the purpose of providing the Service to you. This license ends when you delete your account.
+By using the App, you grant us a limited license to store, process, and display your data solely for the purpose of providing the Service to you. For shared comparisons, this includes displaying your contributions to other members of the comparison. This license ends when you delete your account.
 
 ### Content Restrictions
 
@@ -65,6 +92,10 @@ You agree not to create content that:
 - Violates any applicable laws
 - Infringes on intellectual property rights of others
 - Contains malicious code or harmful content
+
+## Push Notifications
+
+The App may send you push notifications about activity in shared comparisons, such as when another member adds a rating. You can enable or disable push notifications at any time through your device settings or the App's settings.
 
 ## Intellectual Property
 
