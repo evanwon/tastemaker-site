@@ -64,3 +64,7 @@ Cloudflare Pages auto-deploys on push to `main`. Build settings:
 - Custom domain: `trytastemaker.com`
 
 No manual deploy steps needed — just push.
+
+Dependabot PRs merge themselves daily (`.github/workflows/dependabot-automerge.yml`, whose header says when), and a
+merge deploys like any push. The Pages build is the only check a PR gets, so a bump that builds but breaks a page
+ships.
